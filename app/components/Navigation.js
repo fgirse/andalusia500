@@ -11,7 +11,8 @@ import Script from "next/script";
 import  LogoWA from "../../public/assets/images/LogoWA.svg";
 import { useEffect, useState } from "react";
 import { signIn, signOut, useSession, getProviders } from "next-auth/react";
-
+import Dashboard from '../../app/(site)/dashboard/page'
+import User from '../components/user'
 export default function NavbarDropdown() {
   const navigation = [
     { title: "Philosophie", path: "#" },
@@ -45,7 +46,7 @@ export default function NavbarDropdown() {
         crossOrigin="anonymous"
       />
       <div className={archidaught.className}>
-      <div className="bg-slate-600 w-[100vw] h-min-[100px,,,,.">
+      <div className="bg-stone-900 w-[100vw] h-min-[100px]">
 
      
         <nav className=" relative flex flex-wrap items-center justify-between px-8 py-6 mx-auto lg:justify-between">
@@ -103,10 +104,11 @@ export default function NavbarDropdown() {
           {/* menu  */}
          
           <div className="hidden text-center lg:flex lg:items-center">
+            <div className="" > <Dashboard /> </div>
             <ul className="items-center justify-end flex-1 pt-6 lg:pt-0 list-reset lg:flex">
         
               <NavMenu navigation={navigation} />
-              
+     
             </ul>
           </div>
         </nav>
