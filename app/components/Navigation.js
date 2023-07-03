@@ -57,7 +57,7 @@ export default function NavbarDropdown() {
               <>
                 <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
                   <Link href="#"
-                    className="w-24 sm:w-32 md:w-52 flex items-center space-x-2 text-2xl font-medium text-indigo-100 dark:text-gray-100">
+                    className="w-24 sm:w-32 md:w-40 flex items-center space-x-2 text-2xl font-medium text-indigo-100 dark:text-gray-100">
                       <Image src={LogoWA}  alt="logo" className=""/>
                     
                   </Link>

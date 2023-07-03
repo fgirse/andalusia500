@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Container from "./container";
+import SectionTitel from "../components"
 import { archidaught } from '../../utils/fonts';
 
 
