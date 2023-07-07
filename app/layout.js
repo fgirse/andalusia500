@@ -1,6 +1,6 @@
 import "./globals.css";
 import ToasterContext from './context/ToasterContext'
-import { Dashboard, Footer, Menu, Navbar, Navigation, Provider }from "./components";
+import { Dashboard, Footer, InfoBar, Menu, Navbar, Navigation, Provider }from "./components";
 export const metadata = {
   title: "Wohntraum Andalusia",
   description: "Landingpage",
@@ -16,8 +16,8 @@ const RootLayout = ({ children }) => {
             <div className="gradient" />
           </div>
           <main className="app">
-          <Navigation />
-          
+          <Navigation/>
+        <InfoBar/>                                                                                                                ,
         
             
             {children}

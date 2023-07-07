@@ -1,16 +1,16 @@
 import Image from "next/image";
 import Container from "./container";
 import SectionTitel from "../components"
-import { archidaught } from '../../utils/fonts';
+import { archidaught, lontoutline } from '../../utils/fonts';
 
 
 const Hero = () => {
   return (
     <>
-      
       <Container>
+      <div className{...lontoutline.className}>
         <div className="flex flex-col justify-center">
-          <div className="font-archidought text-xl text-center text-gray-700 dark:text-white">
+          <div className="font-archidought text-xl text-center text-stone-400 dark:text-white">
             Trusted by <span className="text-amber-700">2000+</span>{" "}
             customers worldwide
           </div>
@@ -32,6 +32,7 @@ const Hero = () => {
               <SonyLogo />
             </div>
           </div>
+        </div>
         </div>
       </Container>
     </>

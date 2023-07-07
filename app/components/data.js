@@ -10,8 +10,8 @@ import {
   BanknotesIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../public/assets/images/Bildschirmfoto 2023-06-16 um 18.00.50.png";
-import benefitTwoImg from "../public/assets/images/Beispiel_02.png";
+import benefitOneImg from "../../public/assets/images/Example01.png";
+import benefitTwoImg from "../../public/assets/images/Beispiel_02.png";
 
 const benefitOne = {
   title: "Ablauf des Immobilienerwerbes",

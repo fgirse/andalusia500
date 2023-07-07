@@ -35,7 +35,7 @@ body {
 
 
 .bg-hero{
-  background-size:  96vw 80vh;
+  background-size:  100% 30%;
   }
 
 
@@ -124,7 +124,7 @@ body {
 }
 
 .head_text {
-  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl;
+  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-amber-400 sm:text-6xl;
 }
 
 .orange_gradient {
@@ -140,7 +140,7 @@ body {
 }
 
 .desc {
-  @apply mt-5 text-lg text-gray-600 sm:text-xl max-w-2xl;
+  @apply mt-5 text-lg text-amber-400 sm:text-xl max-w-2xl;
 }
 
 .search_input {

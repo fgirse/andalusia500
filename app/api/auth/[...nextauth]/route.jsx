@@ -26,9 +26,8 @@ export const authOptions = {
             },
             async authorize(credentials) {
               
-                                    
                 // check to see if email and password is there
-            if(!credentials.email || !credentials.password) {
+                if(!credentials.email || !credentials.password) {
                     throw new Error('Please enter an email and password')
                 }
 

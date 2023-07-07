@@ -1,12 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import Container from "./container";
-
+import { archidaught, lontoutline } from '../../utils/fonts';
 const Benefits = (props) => {
   const { data } = props;
   return (
     <>
       <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap ">
+      <div className={lontoutline.className}>
         <div
           className={`flex items-center justify-center w-full lg:w-1/2 ${
             props.imgPos === "right" ? "lg:order-1" : ""
@@ -47,6 +48,7 @@ const Benefits = (props) => {
               ))}
             </div>
           </div>
+        </div>
         </div>
       </Container>
     </>

@@ -10,6 +10,8 @@ import Features from"./features";
 import Feed from"./Feed";
 import Footer from"./footer";
 import Form from"./Form";
+import Hero from"./hero";
+import InfoBar from"./InfoBar";
 import Navigation from"./Navigation";
 import PopupWidget from"./popupWidget";
 import PromptCard from "./PromptCard";
@@ -32,7 +34,9 @@ export {
     Feed,
     Footer,
     Form,
+    Hero,
     Navigation,
+    InfoBar,
     PopupWidget,
     PromptCard,
     Provider,
